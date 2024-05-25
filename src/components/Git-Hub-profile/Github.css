@@ -1,0 +1,72 @@
+.github-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.inputtext {
+    margin-bottom: 20px;
+}
+
+.inputtext input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.inputtext button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inputtext button:hover {
+    background-color: #0056b3;
+}
+
+.inputtext button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.user{
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.avatar{
+    height: 150px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+
+.name-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.name-container p{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile-info div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+

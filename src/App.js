@@ -10,6 +10,7 @@ import CustomTab from './components/Custom-Tabs/CustomTab'
 import Tabs from './components/Custom-Tabs/Tabs'
 import CutomModal from './components/Custom-Modal-Popup/CutomModal'
 import Password from './components/PassordGenerator/Password'
+import Github from './components/Git-Hub-profile/Github'
 function App() {
   return (
     <div>
@@ -24,6 +25,7 @@ function App() {
   <Tabs/>
   <CutomModal/>
   <Password/>
+    <Github/>
   </div>
   )
 }

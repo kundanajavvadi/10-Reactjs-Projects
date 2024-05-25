@@ -1,0 +1,23 @@
+/* ScrollIndicator.css */
+.scroll-container {
+    position: relative;
+    width: 100%;
+}
+
+.scroll-indicator {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4px;
+    background-color: blue;
+    z-index: 10;
+}
+
+.loading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.product-item {
+    margin: 10px 0;
+}
